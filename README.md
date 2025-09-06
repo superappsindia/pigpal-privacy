@@ -1,0 +1,2 @@
+# pigpal-privacy
+Privacy Policy
