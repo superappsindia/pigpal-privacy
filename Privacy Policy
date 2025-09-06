@@ -1,14 +1,184 @@
-index.html
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>PigPal Privacy Policy</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PigPal — Privacy Policy</title>
+  <style>
+    :root{--accent:#0b6b3a;--muted:#666;--max:900px}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;line-height:1.6;color:#222;margin:32px auto;padding:0 16px;max-width:var(--max)}
+    h1{color:var(--accent);font-size:1.8rem;margin-bottom:6px}
+    h2{color:var(--accent);font-size:1.15rem;margin-top:22px}
+    p{margin:12px 0}
+    ul{margin:8px 0 12px 20px}
+    a{color:var(--accent)}
+    header, footer{margin-bottom:12px}
+    footer{color:var(--muted);font-size:0.9rem;border-top:1px solid #eee;padding-top:12px}
+    .note{background:#f7fff7;border-left:4px solid var(--accent);padding:10px;margin:12px 0}
+    .small{font-size:0.95rem;color:var(--muted)}
+  </style>
 </head>
 <body>
-  <h1>PigPal Privacy Policy</h1>
-  <p>Last updated: September 2025</p>
-  <p>Welcome to PigPal. This privacy policy explains how we handle your data.</p>
-  <!-- we’ll fill this out properly -->
+  <header>
+    <h1>PigPal — Privacy Policy</h1>
+    <p class="small">Last updated: <strong>September 6, 2025</strong></p>
+  </header>
+
+  <section>
+    <h2>Introduction</h2>
+    <p>
+      PigPal (the "App") is developed and provided by SuperApps ("we", "us", "our"). PigPal helps farmers
+      manage piggery tasks such as breeding, feeding, vaccinations, inventory and transactions.
+      This Privacy Policy explains what information we collect, why we collect it, and how you can control it.
+    </p>
+  </section>
+
+  <section>
+    <h2>Scope</h2>
+    <p>
+      This policy applies to personal data collected through the PigPal mobile application and any
+      related services (for example, support or web pages we operate). It does not apply to information
+      collected offline or by third parties that we do not control.
+    </p>
+  </section>
+
+  <section>
+    <h2>Information we collect</h2>
+    <p>We collect the following types of information:</p>
+    <ul>
+      <li><strong>Device & technical data:</strong> device model, operating system version, app version, language and basic diagnostics for crash reports and troubleshooting.</li>
+      <li><strong>App data you enter:</strong> farm records, animal tags, breeding logs, vaccination and deworming records, inventory and transaction entries — essentially the farm data you store in the app.</li>
+      <li><strong>Usage data:</strong> anonymous or pseudonymized analytics events (which features are used, timestamps) to help us improve the app.</li>
+      <li><strong>Support data:</strong> messages you send to support (email content, screenshots if provided) when you contact us.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How we use your data</h2>
+    <p>We use the data we collect to:</p>
+    <ul>
+      <li>Provide and maintain the app’s core functionality (store and retrieve farm records).</li>
+      <li>Send optional reminders or notifications (if you enable them) for vaccinations, heats, etc.</li>
+      <li>Diagnose and fix technical issues (crash reports and logs).</li>
+      <li>Conduct analytics to improve features, performance and user experience.</li>
+      <li>Respond to support requests you send to us.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Legal basis for processing (where applicable)</h2>
+    <p>
+      Where required under applicable law (for example, in the EU), our legal basis for processing your
+      personal data is: performance of a contract (to provide app features), your consent (for optional analytics
+      or marketing), or our legitimate interests (to operate and improve the app) as permitted by law.
+    </p>
+  </section>
+
+  <section>
+    <h2>Sharing and disclosure</h2>
+    <p>We do not sell your personal data. We may share data in these limited circumstances:</p>
+    <ul>
+      <li><strong>Service providers:</strong> third parties who provide analytics, crash reporting, hosting, or email delivery (e.g., Firebase, Sentry, or similar). These providers process data on our behalf under contract.</li>
+      <li><strong>Legal requests:</strong> if required by law or to protect rights and safety.</li>
+      <li><strong>Business transfers:</strong> in the event of a merger, acquisition, or sale of assets, subject to confidentiality protections.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Third-party services and links</h2>
+    <p>
+      PigPal may use third-party services (analytics, crash reporting, or cloud services). These providers
+      have their own privacy policies. Examples may include Google Analytics / Firebase and Crashlytics, but we
+      will list the specific providers in the app store privacy details and on this page when used.
+    </p>
+    <p>
+      The app may also contain links to external websites (for documentation or support). We are not
+      responsible for the privacy practices of these external sites.
+    </p>
+  </section>
+
+  <section>
+    <h2>Where and how we store data</h2>
+    <p>
+      Most app data you enter is stored locally on your device by default (e.g., in an on-device database).
+      If you enable any cloud-sync feature (not required), data may be stored on cloud servers — we will
+      explicitly request consent before enabling remote sync.
+    </p>
+    <p>
+      We retain support and diagnostic logs for as long as needed to troubleshoot and improve the app,
+      and for any period required by law.
+    </p>
+  </section>
+
+  <section>
+    <h2>Security</h2>
+    <p>
+      We implement reasonable administrative, technical and physical safeguards designed to protect your data.
+      However, no method of transmission or storage is completely secure — if you have sensitive personal data,
+      consider whether to store it in the app.
+    </p>
+  </section>
+
+  <section>
+    <h2>Analytics, crash reporting & opt-out</h2>
+    <p>
+      We may collect anonymous analytics and crash reports to understand app performance and usage.
+      You may opt out of analytics in the app’s Privacy settings (if provided). Opting out will not affect
+      core app functionality.
+    </p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>
+      PigPal is not directed to children under the age of 13. We do not knowingly collect personal data from children.
+      If you believe a child under 13 has provided us personal data, please contact us and we will take steps to delete it.
+    </p>
+  </section>
+
+  <section>
+    <h2>Your rights</h2>
+    <p>
+      Depending on your location, you may have certain rights with respect to your personal data, including:
+    </p>
+    <ul>
+      <li>Access the personal data we hold about you.</li>
+      <li>Request correction or deletion of your data.</li>
+      <li>Request a copy of your data in a commonly used format.</li>
+      <li>Withdraw consent where processing is based on consent.</li>
+    </ul>
+    <p>To exercise these rights, contact us at the address below. We may ask you to verify your identity.</p>
+  </section>
+
+  <section>
+    <h2>Data export and deletion</h2>
+    <p>
+      If you would like a copy of your data or want your data removed, contact us at
+      <a href="mailto:superappsindia@gmail.com">superappsindia@gmail.com</a>. We will respond to legitimate requests within a reasonable timeframe.
+    </p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. We will post the updated policy at the same URL
+      and update the "Last updated" date at the top of this page. For material changes, we will provide a more
+      prominent notice where required by law.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>If you have questions, concerns or requests about this Privacy Policy or our data practices, please contact:</p>
+    <p>
+      Email: <a href="mailto:superappsindia@gmail.com">superapps@gmail.com</a><br/>
+      (We typically respond within a few business days.)
+    </p>
+  </section>
+
+  <footer>
+    <p>© <span id="yr"></span> SuperApps — PigPal</p>
+    <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+  </footer>
 </body>
 </html>
