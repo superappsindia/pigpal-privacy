@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About PigPal</title>
+  <style>
+    :root{--accent:#0b6b3a;--muted:#666;--max:900px}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;line-height:1.6;color:#222;margin:32px auto;padding:0 16px;max-width:var(--max)}
+    h1{color:var(--accent);font-size:1.8rem;margin-bottom:6px}
+    h2{color:var(--accent);font-size:1.15rem;margin-top:22px}
+    p{margin:12px 0}
+    ul{margin:8px 0 12px 20px}
+    a{color:var(--accent)}
+    footer{margin-top:32px;color:var(--muted);font-size:0.9rem;border-top:1px solid #eee;padding-top:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About PigPal</h1>
+    <p><em>Your trusted piggery management companion.</em></p>
+  </header>
+
+  <section>
+    <h2>Our Mission</h2>
+    <p>
+      PigPal is designed to help pig farmers, smallholders, and agribusinesses
+      manage their farms more efficiently. From breeding logs to feed tracking,
+      PigPal reduces paperwork, improves accuracy, and saves time.
+    </p>
+  </section>
+
+  <section>
+    <h2>Key Features</h2>
+    <ul>
+      <li>🐖 Pig List — track each pig by tag, gender, and stage of growth.</li>
+      <li>❤️ Breeding logs, heat cycles, and family tree records.</li>
+      <li>💉 Vaccination & Deworming reminders.</li>
+      <li>⚖️ Weight estimation & FCR monitoring.</li>
+      <li>📦 Feed and inventory management.</li>
+      <li>💰 Income & Expense tracking.</li>
+      <li>🔔 Smart task reminders for today and tomorrow.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Who We Are</h2>
+    <p>
+      PigPal is developed by <strong>SuperApps</strong>, with a vision to empower
+      farmers through simple, powerful, and affordable digital tools.
+    </p>
+    <p>
+      <strong>About the Founder:</strong> My name is <em>Ripunjay</em>.  
+      I have a passion for agriculture and technology, and I built PigPal to make 
+      piggery management easier for farmers. My goal is to combine practical 
+      farming knowledge with modern mobile tools, so that every farmer — big or small — 
+      can save time, reduce costs, and improve productivity.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>
+      For questions, feedback, or support, you can reach us at: <br>
+      📧 <a href="mailto:superappsindia@gmail.com">superapps@gmail.com</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© <span id="yr"></span> SuperApps — PigPal</p>
+    <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
