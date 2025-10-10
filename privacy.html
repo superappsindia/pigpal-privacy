@@ -21,7 +21,7 @@
 <body>
   <header>
     <h1>PigPal — Privacy Policy</h1>
-    <p class="small">Last updated: <strong>September 6, 2025</strong></p>
+    <p class="small">Last updated: <strong>October 10, 2025</strong></p>
   </header>
 
   <section>
@@ -29,16 +29,17 @@
     <p>
       PigPal (the "App") is developed and provided by SuperApps ("we", "us", "our"). PigPal helps farmers
       manage piggery tasks such as breeding, feeding, vaccinations, inventory and transactions.
-      This Privacy Policy explains what information we collect, why we collect it, and how you can control it.
+      This Privacy Policy explains what information we collect, why we collect it, how we store it
+      (including cloud storage), and how you can control it.
     </p>
   </section>
 
   <section>
     <h2>Scope</h2>
     <p>
-      This policy applies to personal data collected through the PigPal mobile application and any
-      related services (for example, support or web pages we operate). It does not apply to information
-      collected offline or by third parties that we do not control.
+      This policy applies to personal and farm-related data collected through the PigPal mobile and web applications,
+      associated backend services (including Firebase, Firestore, and cloud synchronization), and any
+      related support channels. It does not apply to information collected offline or by unaffiliated third parties.
     </p>
   </section>
 
@@ -46,10 +47,11 @@
     <h2>Information we collect</h2>
     <p>We collect the following types of information:</p>
     <ul>
-      <li><strong>Device & technical data:</strong> device model, operating system version, app version, language and basic diagnostics for crash reports and troubleshooting.</li>
-      <li><strong>App data you enter:</strong> farm records, animal tags, breeding logs, vaccination and deworming records, inventory and transaction entries — essentially the farm data you store in the app.</li>
-      <li><strong>Usage data:</strong> anonymous or pseudonymized analytics events (which features are used, timestamps) to help us improve the app.</li>
-      <li><strong>Support data:</strong> messages you send to support (email content, screenshots if provided) when you contact us.</li>
+      <li><strong>Device & technical data:</strong> device model, operating system version, app version, language, and basic diagnostics for crash reports and troubleshooting.</li>
+      <li><strong>App data you enter:</strong> farm records, animal tags, breeding logs, vaccination and deworming records, feed and inventory data, financial transactions, and other farm management information you choose to store in the app.</li>
+      <li><strong>Usage data:</strong> anonymous or pseudonymized analytics events (feature usage, timestamps) to help us improve the app.</li>
+      <li><strong>Cloud sync data:</strong> when you enable cloud synchronization or backups, copies of your farm records are securely stored on cloud servers (for example, Google Firebase Firestore or Cloud Storage) under your account identifier.</li>
+      <li><strong>Support data:</strong> messages, attachments, or screenshots you send to us when contacting support.</li>
     </ul>
   </section>
 
@@ -57,121 +59,110 @@
     <h2>How we use your data</h2>
     <p>We use the data we collect to:</p>
     <ul>
-      <li>Provide and maintain the app’s core functionality (store and retrieve farm records).</li>
-      <li>Send optional reminders or notifications (if you enable them) for vaccinations, heats, etc.</li>
-      <li>Diagnose and fix technical issues (crash reports and logs).</li>
-      <li>Conduct analytics to improve features, performance and user experience.</li>
-      <li>Respond to support requests you send to us.</li>
+      <li>Provide and maintain app functionality, both offline and through secure cloud synchronization.</li>
+      <li>Send optional reminders or server-based notifications (if you enable them) for vaccinations, breeding, and feeding schedules.</li>
+      <li>Backup and restore your data safely across devices via encrypted cloud sync (if you opt in).</li>
+      <li>Diagnose and fix technical issues, including crash reporting and performance optimization.</li>
+      <li>Conduct analytics to improve features and user experience.</li>
+      <li>Respond to your support and feedback requests.</li>
     </ul>
   </section>
 
   <section>
-    <h2>Legal basis for processing (where applicable)</h2>
+    <h2>Cloud storage and synchronization</h2>
     <p>
-      Where required under applicable law (for example, in the EU), our legal basis for processing your
-      personal data is: performance of a contract (to provide app features), your consent (for optional analytics
-      or marketing), or our legitimate interests (to operate and improve the app) as permitted by law.
+      PigPal allows you to optionally sync your farm data to our secure cloud infrastructure (powered by Google Firebase).
+      When enabled, your records are encrypted in transit and stored in a secure cloud database under your authenticated user ID.
+    </p>
+    <p>
+      Cloud sync enables data backup, restoration on multiple devices, and server-based notifications (such as reminders before due tasks).
+      You can disable sync at any time from within the app’s settings. Disabling sync will stop further uploads but will not automatically delete existing cloud copies.
+      You may request full deletion of your cloud data via email.
+    </p>
+    <p class="note">
+      <strong>Important:</strong> All cloud data is stored in Firebase data centers operated by Google Cloud,
+      which may be located in different regions depending on your country of use. Data transfers comply with
+      applicable data protection regulations.
     </p>
   </section>
 
   <section>
     <h2>Sharing and disclosure</h2>
-    <p>We do not sell your personal data. We may share data in these limited circumstances:</p>
+    <p>We do not sell your personal data. We may share limited information only in these cases:</p>
     <ul>
-      <li><strong>Service providers:</strong> third parties who provide analytics, crash reporting, hosting, or email delivery (e.g., Firebase, Sentry, or similar). These providers process data on our behalf under contract.</li>
-      <li><strong>Legal requests:</strong> if required by law or to protect rights and safety.</li>
-      <li><strong>Business transfers:</strong> in the event of a merger, acquisition, or sale of assets, subject to confidentiality protections.</li>
+      <li><strong>Service providers:</strong> trusted third parties (e.g., Google Firebase, Crashlytics, or analytics partners)
+        who help us operate the app, store data, or send notifications. They process data under strict confidentiality agreements.</li>
+      <li><strong>Legal requests:</strong> when required by law or to protect our rights, property, or users’ safety.</li>
+      <li><strong>Business transfers:</strong> in connection with a merger, acquisition, or sale of assets, subject to data protection safeguards.</li>
     </ul>
   </section>
 
   <section>
-    <h2>Third-party services and links</h2>
+    <h2>Data retention and deletion</h2>
     <p>
-      PigPal may use third-party services (analytics, crash reporting, or cloud services). These providers
-      have their own privacy policies. Examples may include Google Analytics / Firebase and Crashlytics, but we
-      will list the specific providers in the app store privacy details and on this page when used.
+      Locally stored data remains on your device until you delete it or uninstall the app.
+      Cloud-stored data (if enabled) is retained as long as your account is active or until you request deletion.
+      Support and diagnostic logs are kept only as long as needed for troubleshooting or as required by law.
     </p>
     <p>
-      The app may also contain links to external websites (for documentation or support). We are not
-      responsible for the privacy practices of these external sites.
-    </p>
-  </section>
-
-  <section>
-    <h2>Where and how we store data</h2>
-    <p>
-      Most app data you enter is stored locally on your device by default (e.g., in an on-device database).
-      If you enable any cloud-sync feature (not required), data may be stored on cloud servers — we will
-      explicitly request consent before enabling remote sync.
-    </p>
-    <p>
-      We retain support and diagnostic logs for as long as needed to troubleshoot and improve the app,
-      and for any period required by law.
+      You may request deletion of your cloud data and associated account by contacting us at
+      <a href="mailto:superappsindia@gmail.com">superappsindia@gmail.com</a>.
+      Deletion requests will be processed within a reasonable timeframe and confirmed once complete.
     </p>
   </section>
 
   <section>
     <h2>Security</h2>
     <p>
-      We implement reasonable administrative, technical and physical safeguards designed to protect your data.
-      However, no method of transmission or storage is completely secure — if you have sensitive personal data,
-      consider whether to store it in the app.
+      We apply industry-standard security practices, including encrypted transmission (HTTPS), secure authentication (Firebase Auth),
+      and limited data access on a need-to-know basis. However, no electronic storage is 100% secure — we advise users
+      to avoid storing sensitive personal information (like financial credentials) in the app.
     </p>
   </section>
 
   <section>
     <h2>Analytics, crash reporting & opt-out</h2>
     <p>
-      We may collect anonymous analytics and crash reports to understand app performance and usage.
-      You may opt out of analytics in the app’s Privacy settings (if provided). Opting out will not affect
-      core app functionality.
+      PigPal uses analytics and crash reporting (for example, Firebase Analytics and Crashlytics)
+      to improve stability and performance. These tools collect anonymous data only.
+      You may opt out of analytics collection through the in-app privacy settings without affecting core features.
     </p>
   </section>
 
   <section>
     <h2>Children</h2>
     <p>
-      PigPal is not directed to children under the age of 13. We do not knowingly collect personal data from children.
-      If you believe a child under 13 has provided us personal data, please contact us and we will take steps to delete it.
+      PigPal is not directed to children under the age of 13, and we do not knowingly collect personal data from them.
+      If such information is discovered, it will be deleted promptly upon notification.
     </p>
   </section>
 
   <section>
     <h2>Your rights</h2>
     <p>
-      Depending on your location, you may have certain rights with respect to your personal data, including:
+      Depending on your region, you may have the right to:
     </p>
     <ul>
-      <li>Access the personal data we hold about you.</li>
-      <li>Request correction or deletion of your data.</li>
-      <li>Request a copy of your data in a commonly used format.</li>
-      <li>Withdraw consent where processing is based on consent.</li>
+      <li>Access and review your personal or farm-related data stored by PigPal.</li>
+      <li>Request correction, export, or deletion of your data.</li>
+      <li>Withdraw consent for analytics or cloud synchronization at any time.</li>
     </ul>
-    <p>To exercise these rights, contact us at the address below. We may ask you to verify your identity.</p>
-  </section>
-
-  <section>
-    <h2>Data export and deletion</h2>
-    <p>
-      If you would like a copy of your data or want your data removed, contact us at
-      <a href="mailto:superappsindia@gmail.com">superappsindia@gmail.com</a>. We will respond to legitimate requests within a reasonable timeframe.
-    </p>
+    <p>To exercise your rights, please contact us at the address below. Verification may be required before action.</p>
   </section>
 
   <section>
     <h2>Changes to this policy</h2>
     <p>
-      We may update this Privacy Policy from time to time. We will post the updated policy at the same URL
-      and update the "Last updated" date at the top of this page. For material changes, we will provide a more
-      prominent notice where required by law.
+      We may update this Privacy Policy periodically. Updates will be posted at this URL, with a revised “Last updated” date.
+      Significant changes will be communicated within the app or by email when appropriate.
     </p>
   </section>
 
   <section>
     <h2>Contact</h2>
-    <p>If you have questions, concerns or requests about this Privacy Policy or our data practices, please contact:</p>
     <p>
-      Email: <a href="mailto:superappsindia@gmail.com">superapps@gmail.com</a><br/>
+      For questions or requests about this Privacy Policy or your data, please contact:<br>
+      Email: <a href="mailto:superappsindia@gmail.com">superappsindia@gmail.com</a><br/>
       (We typically respond within a few business days.)
     </p>
   </section>
