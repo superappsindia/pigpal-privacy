@@ -21,7 +21,7 @@
 <body>
   <header>
     <h1>PigPal — Privacy Policy</h1>
-    <p class="small">Last updated: <strong>October 10, 2025</strong></p>
+    <p class="small">Last updated: <strong>October 29, 2025</strong></p>
   </header>
 
   <section>
@@ -53,7 +53,12 @@
       <li><strong>Cloud sync data:</strong> when you enable cloud synchronization or backups, copies of your farm records are securely stored on cloud servers (for example, Google Firebase Firestore or Cloud Storage) under your account identifier.</li>
       <li><strong>Support data:</strong> messages, attachments, or screenshots you send to us when contacting support.</li>
       <li><strong>Marketplace listings:</strong> photos, descriptions, and contact details you choose to publish in PigPal Marketplace are visible to other users within the app and can be edited or deleted by you at any time.</li>
-      <li><strong>Advertising data (trial users only):</strong> if you are using the free-trial version, limited anonymous identifiers may be used by Google AdMob to display contextual ads. Paid users do not see ads.</li>
+
+      <!-- NEW: Camera & Location (Marketplace) -->
+      <li><strong>Camera & location (Marketplace):</strong> when you create or edit a Marketplace listing, PigPal may request camera access to capture or attach listing photos and (optional) <em>approximate</em> location to tag your farm area. Location is never collected automatically and can be skipped; denying these permissions only limits those specific features.</li>
+
+      <!-- Clarified AdMob ID -->
+      <li><strong>Advertising data (trial users only):</strong> if you are using the free-trial version, Google AdMob may access the device’s Google Advertising ID (AAID) and other anonymous identifiers to display and measure contextual ads. Paid users do not see ads.</li>
     </ul>
   </section>
 
@@ -67,6 +72,7 @@
       <li>Diagnose and fix technical issues, including crash reporting and performance optimization.</li>
       <li>Conduct analytics to improve features and user experience.</li>
       <li>Respond to your support and feedback requests.</li>
+      <li>Support Marketplace features such as attaching photos and optionally tagging an approximate location on listings (only when you choose to use those features).</li>
     </ul>
   </section>
 
@@ -94,7 +100,7 @@
     <ul>
       <li><strong>Service providers:</strong> trusted third parties (e.g., Google Firebase, Crashlytics, or analytics partners)
         who help us operate the app, store data, or send notifications. They process data under strict confidentiality agreements.</li>
-      <li><strong>Advertising partners:</strong> for free-trial users, Google AdMob may process anonymous advertising identifiers to display contextual ads. No personal or farm data is shared for ad targeting.</li>
+      <li><strong>Advertising partners:</strong> for free-trial users, Google AdMob may process the device Advertising ID (AAID) and related signals to display and measure contextual ads. No personal or farm data is shared for ad targeting.</li>
       <li><strong>Legal requests:</strong> when required by law or to protect our rights, property, or users’ safety.</li>
       <li><strong>Business transfers:</strong> in connection with a merger, acquisition, or sale of assets, subject to data protection safeguards.</li>
     </ul>
@@ -127,8 +133,17 @@
     <h2>Analytics, crash reporting & opt-out</h2>
     <p>
       PigPal uses analytics and crash reporting (for example, Firebase Analytics and Crashlytics)
-      to improve stability and performance. These tools collect anonymous data only.
+      to improve stability and performance. These tools collect anonymous or pseudonymized data.
       You may opt out of analytics collection through the in-app privacy settings without affecting core features.
+    </p>
+  </section>
+
+  <section>
+    <h2>Permissions & controls</h2>
+    <p>
+      You can control camera, location, and notification permissions at any time in your device settings. 
+      Denying a permission will only limit the related feature (for example, adding listing photos or tagging approximate location);
+      the rest of PigPal will continue to work.
     </p>
   </section>
 
